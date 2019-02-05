@@ -5,3 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+require 'faker'
+
+9.times do
+	user = User.create!(first_name: Faker::Name.first_name)
+end
+
+9.times do
+	goss = Goss.create!(title: Faker::Lovecraft.location, content: Faker::Lovecraft.sentence, user_id: User.all.sample.id)
+end

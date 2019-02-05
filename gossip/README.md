@@ -18,5 +18,7 @@ page de contact avec une adresse de contact
 
 page de bienvenu, qui accueil l'utilisateur en fonction du nom passé dans l'URL
 
-## Here is the meme
+## Here is the video!
+
+https://www.youtube.com/watch?v=8yzKstC382o
 

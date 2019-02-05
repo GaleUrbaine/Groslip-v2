@@ -4,4 +4,10 @@ class StaticPagesController < ApplicationController
 
   def team
   end
+
+  def welcome
+    @goss = Goss.all
+    @user = User.all
+  end
+
 end
